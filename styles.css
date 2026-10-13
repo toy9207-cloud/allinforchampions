@@ -1,0 +1,191 @@
+/* Brand palette from the All In For Champions brand guide */
+:root {
+  --red: #D84444;
+  --sand: #CBAF73;
+  --sand-light: #CEB181;
+  --gold: #B08752;
+  --black: #1F1A1E;
+  --charcoal: #3D393C;
+  --slate: #5B5155;
+  --cream: #F7F3EC;
+
+  --display: "Alfa Slab One", Georgia, serif;
+  --script: "Pinyon Script", cursive;
+  --body: "Jost", system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--black);
+  font-family: var(--body);
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+
+a { color: var(--red); }
+
+h2, h3 {
+  font-family: var(--display);
+  font-weight: 400;
+  line-height: 1.15;
+  margin: 0 0 1rem;
+}
+h2 { font-size: clamp(2rem, 5vw, 3rem); }
+h3 { font-size: 1.5rem; margin-top: 3rem; }
+
+.script {
+  font-family: var(--script);
+  font-size: 2.4rem;
+  color: var(--gold);
+  margin: 0 0 .25rem;
+  line-height: 1;
+}
+
+.wrap { max-width: 1100px; margin: 0 auto; padding: 0 1.25rem; }
+.narrow { max-width: 720px; text-align: center; }
+
+section { padding: 5rem 0; }
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: .85rem 2rem;
+  border-radius: 999px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .95rem;
+  transition: transform .15s, background .15s;
+}
+.btn:hover { transform: translateY(-2px); }
+.btn-red { background: var(--red); color: #fff; }
+.btn-red:hover { background: #c13737; }
+.btn-outline { border: 2px solid var(--black); color: var(--black); }
+.btn-outline-dark { border: 2px solid var(--sand); color: var(--sand); }
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 3rem 1.25rem 4rem;
+  background: radial-gradient(ellipse at center, #fff 0%, var(--cream) 70%);
+}
+.hero-logo { max-width: 760px; width: 100%; margin: 0 auto; }
+.hero-date {
+  font-weight: 600;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  font-size: clamp(.85rem, 2.4vw, 1.05rem);
+  margin: 1.5rem 0 .25rem;
+}
+.hero-benefit { margin: 0 0 2rem; color: var(--slate); }
+.hero-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+/* Mission */
+.mission { background: var(--black); color: var(--cream); }
+.mission h2 { color: #fff; }
+.mission .script { color: var(--sand); }
+
+/* Stats */
+.stats { background: var(--red); color: #fff; padding: 3rem 0; }
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+.stat-num { display: block; font-family: var(--display); font-size: clamp(2.25rem, 6vw, 3.25rem); line-height: 1.1; }
+.stat-label { text-transform: uppercase; letter-spacing: .12em; font-size: .85rem; font-weight: 600; }
+
+/* Event */
+.event-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+.details {
+  margin: 0;
+  background: #fff;
+  border-top: 4px solid var(--gold);
+  padding: 1.5rem 1.75rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: .6rem 1.25rem;
+}
+.details dt { font-weight: 600; text-transform: uppercase; letter-spacing: .1em; font-size: .8rem; color: var(--gold); padding-top: .2rem; }
+.details dd { margin: 0; }
+
+.players {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: .75rem;
+}
+.players li {
+  background: var(--black);
+  color: var(--cream);
+  padding: .9rem 1.1rem;
+  font-weight: 500;
+  border-left: 4px solid var(--red);
+}
+.players .tba { background: transparent; color: var(--slate); border-left-color: var(--sand); font-style: italic; }
+
+/* Beneficiary */
+.beneficiary { background: var(--sand-light); }
+.beneficiary-grid {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+.beneficiary .script { color: var(--black); }
+
+/* CTA */
+.cta { background: var(--charcoal); color: var(--cream); }
+.cta h2 { color: #fff; }
+.cta .script { color: var(--sand); }
+.cta p { margin-bottom: 2rem; }
+
+/* Sponsors */
+.sponsors { background: var(--black); color: var(--cream); text-align: center; }
+.sponsors h2 { color: #fff; }
+.sponsors .script { color: var(--sand); }
+.sponsor-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+}
+.sponsor-logos img {
+  background: #fff;
+  padding: 1.25rem 1.75rem;
+  border-radius: 6px;
+  height: 110px;
+  width: auto;
+  max-width: 100%;
+}
+.sponsors p { max-width: 620px; margin: 0 auto 2rem; }
+
+/* Footer */
+.footer { background: #120f11; color: var(--sand-light); text-align: center; padding: 3rem 0; font-size: .95rem; }
+.footer p { margin: .25rem 0; }
+.footer a { color: var(--sand); }
+.footer-name { font-family: var(--display); font-size: 1.5rem; color: #fff; }
+.fine { font-size: .75rem; color: var(--slate); margin-top: 1.5rem !important; }
+
+@media (max-width: 760px) {
+  section { padding: 3.5rem 0; }
+  .event-grid, .beneficiary-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .beneficiary-grid img { max-width: 240px; margin: 0 auto; }
+  .beneficiary-grid { text-align: center; }
+}
