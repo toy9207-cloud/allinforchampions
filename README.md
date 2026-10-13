@@ -5,6 +5,7 @@ One-page site for All In For Champions and the NFR Celebrity Blackjack Tournamen
 - `index.html` — all page content
 - `styles.css` — brand colors and layout
 - `assets/` — logos, favicon, social share image
+- `robots.txt`, `sitemap.xml`, `site.webmanifest`, `404.html` — search engine and browser files
 - `CNAME` — tells GitHub Pages to serve the site at allinforchampions.org
 
 ## Go live on GitHub Pages (free)
@@ -15,6 +16,13 @@ One-page site for All In For Champions and the NFR Celebrity Blackjack Tournamen
    - `A` records for `@` pointing to `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
    - `CNAME` record for `www` pointing to `toy9207-cloud.github.io`
 4. Back in **Settings → Pages**, enter `allinforchampions.org` as the custom domain, wait for the DNS check, then tick **Enforce HTTPS**.
+
+## After launch: Google Search Console
+
+1. Go to search.google.com/search-console and add a **Domain** property for `allinforchampions.org`.
+2. Choose the GoDaddy sign-in option so Google adds the verification record for you.
+3. Under **Sitemaps**, submit `sitemap.xml`.
+4. Under **URL Inspection**, enter `https://allinforchampions.org/` and click **Request indexing**.
 
 ## Email: info@allinforchampions.org
 
