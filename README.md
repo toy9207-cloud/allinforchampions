@@ -29,6 +29,6 @@ Whichever option you choose, it adds `MX` and `TXT` records at the registrar. Th
 ## Open items
 
 - Real donation link (replace the `mailto:` on the Donate button)
-- EIN / 501(c)(3) status line for the footer
+- Confirm the 501(c)(3) status shows up in the IRS Tax Exempt Organization Search for EIN 42-4855761
 - Confirm the public player list, and get each player's OK before it goes up
 - Brand fonts (Borensa, Sloop Script One) need a web license; Google Fonts stand-ins are used for now
