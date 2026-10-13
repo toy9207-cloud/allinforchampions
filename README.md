@@ -36,7 +36,7 @@ Whichever option you choose, it adds `MX` and `TXT` records at the registrar. Th
 
 ## Open items
 
-- Real donation link (replace the `mailto:` on the Donate button)
+- Donation link: the Donate button and "Help us double our impact" section were removed until the page is ready; restore them from git history (commit da2e62e)
 - Confirm the 501(c)(3) status shows up in the IRS Tax Exempt Organization Search for EIN 42-4855761
 - Confirm the public player list, and get each player's OK before it goes up
 - Brand fonts (Borensa, Sloop Script One) need a web license; Google Fonts stand-ins are used for now
