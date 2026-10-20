@@ -10,7 +10,7 @@ One-page site for All In For Champions and the NFR Celebrity Blackjack Tournamen
 
 ## Go live on GitHub Pages (free)
 
-1. Merge this branch into `main`.
+1. Done: `main` is live.
 2. Repo **Settings → Pages**: Source = "Deploy from a branch," branch = `main`, folder = `/ (root)`.
 3. At the domain registrar, add these DNS records:
    - `A` records for `@` pointing to `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
@@ -26,13 +26,7 @@ One-page site for All In For Champions and the NFR Celebrity Blackjack Tournamen
 
 ## Email: info@allinforchampions.org
 
-Pick one:
-
-- **Google Workspace for Nonprofits (free with a verified 501(c)(3))** — full inbox, can send and receive as info@. Apply at google.com/nonprofits; verification runs through Goodstack and needs the EIN.
-- **Google Workspace Business Starter (paid)** — same inbox, no verification wait.
-- **Forwarding only (free, fastest)** — Cloudflare Email Routing or the registrar's forwarding sends info@ mail to an existing Gmail. Receiving works right away; sending *as* info@ takes extra setup.
-
-Whichever option you choose, it adds `MX` and `TXT` records at the registrar. They don't conflict with the GitHub Pages records above.
+Decision: add the domain to Seven X's Google Workspace as a secondary domain, with info@ as a Google Group. Move to the charity's own nonprofit Workspace after the December event. Full steps are in `AGENTS.md`.
 
 ## Open items
 
