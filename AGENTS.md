@@ -60,7 +60,7 @@ Donations were removed until the donation page exists (Zeffy is the recommended 
 - If the platform offers an embeddable goal thermometer, add it to the `#give` section.
 
 ### 2. Player list and headshots
-Headshots live in `assets/players/` as 400×400 WebP squares, named `first-last.webp`; CSS crops them to circles. Players without a photo show an initials circle (`<span class="avatar avatar-placeholder">`). To add a photo: crop square with the face centered and the hat fully in frame, save as WebP, then swap the `<span>` for `<img class="avatar" src="assets/players/first-last.webp" width="400" height="400" loading="lazy" alt="First Last">`. Use only photos the athlete or the photographer has OK'd; do not pull PRCA/WPRA photos without permission.
+Headshots live in `assets/players/` as 400×400 WebP squares, named `first-last.webp`; CSS crops them to circles. Players without a photo show an initials circle (`<span class="avatar avatar-placeholder">`). To add a photo: crop square with the face centered and the hat fully in frame, save as WebP, then swap the `<span>` for `<img class="avatar" src="assets/players/first-last.webp" width="400" height="400" loading="lazy" alt="First Last">`. Current photos were collected Oct. 28, 2026, from PRCA, WPRA, Western Horseman, Rodeo on SI and American Hat Company pages at the owner's direction; the owner accepted the rights risk. Keep the photo credit line under the player grid. If a photographer or organization asks for removal, take the photo down and restore the initials circle. Replace with athlete-supplied photos when available.
 
 Each player must OK being listed publicly. Remove anyone who hasn't, in both places (see rule 1). Add new players as they confirm.
 

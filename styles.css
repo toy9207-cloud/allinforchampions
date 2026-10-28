@@ -161,6 +161,7 @@ section { padding: 5rem 0; }
 .player-name { font-weight: 600; font-size: 1.05rem; }
 .emcee { margin-top: 3.5rem; text-align: center; }
 .emcee .script { margin-bottom: 1rem; }
+.photo-credit { text-align: center; font-size: .8rem; color: var(--slate); margin-top: .5rem; }
 .players-note { margin-top: 2.5rem; text-align: center; color: var(--slate); font-style: italic; }
 
 /* Beneficiary */
