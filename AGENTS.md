@@ -75,6 +75,8 @@ These need a human logged into GoDaddy, GitHub settings, or Google Admin. An age
 Repo Settings → Pages → tick **Enforce HTTPS** once GitHub finishes issuing the certificate (up to 24 hours after the DNS check passes). If still unavailable after 24 hours: Remove the custom domain, re-enter `allinforchampions.org`, Save.
 
 ### Email: info@allinforchampions.org
+**Status: set up (Oct. 2026).** Steps kept for reference.
+
 **Decision:** add the domain to Seven X Custom Jewelry's existing Google Workspace as a secondary domain, with `info@` as a free Google Group. **Long term:** move to the charity's own Google Workspace for Nonprofits account (free with 501(c)(3) verification) after the December event, so the charity's email isn't owned by a for-profit business.
 
 Steps (Seven X super admin, admin.google.com):
