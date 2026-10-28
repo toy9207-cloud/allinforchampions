@@ -129,22 +129,37 @@ section { padding: 5rem 0; }
 .details dt { font-weight: 600; text-transform: uppercase; letter-spacing: .1em; font-size: .8rem; color: var(--gold); padding-top: .2rem; }
 .details dd { margin: 0; }
 
+.players-section { padding-top: 0; }
 .players {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 2rem 0 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: .75rem;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 2.5rem 1.5rem;
+  text-align: center;
 }
-.players li {
+.avatar {
+  display: block;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto .9rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--gold);
+  box-shadow: 0 0 0 4px var(--cream), 0 0 0 6px var(--red);
+}
+.avatar-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: var(--black);
-  color: var(--cream);
-  padding: .9rem 1.1rem;
-  font-weight: 500;
-  border-left: 4px solid var(--red);
+  color: var(--sand);
+  font-family: var(--display);
+  font-size: 2.5rem;
 }
-.players .tba { background: transparent; color: var(--slate); border-left-color: var(--sand); font-style: italic; }
+.player-name { font-weight: 600; font-size: 1.05rem; }
+.players-note { margin-top: 2.5rem; text-align: center; color: var(--slate); font-style: italic; }
 
 /* Beneficiary */
 .beneficiary { background: var(--sand-light); }

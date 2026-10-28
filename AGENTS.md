@@ -12,7 +12,7 @@ One-page website for **All In For Champions**, a nonprofit public charity (EIN 4
 - 10 NFR contestants + 5 VIP players; sponsors cover every buy-in
 - Emcee: Lefty Holman. The Cowboy Channel films the event. Fans welcome to watch.
 - 2025 raised $27,500; 2026 goal is to double it ($55,000)
-- Confirmed players: Cody Snow, Haven Meged, Shelby Meged, Derrick Begay, Colter Todd, Rylee George, Cooper James. Spellings are confirmed by the owner. Do not "correct" them.
+- Players (as of Oct. 28, 2026): Cody Snow, Jordi Mitchell, Lane Mitchell, Rylee George, Haven Meged, Shelby Meged, Derrick Begay, Colter Todd, Cooper James, Lefty Holman. Spellings are confirmed by the owner. Do not "correct" them. Lefty Holman is also listed as emcee.
 - Presenting sponsors: Virgin Hotels Las Vegas (Curio Collection by Hilton), Seven X Custom Jewelry
 
 ## Stack and hosting
@@ -42,7 +42,7 @@ One-page website for **All In For Champions**, a nonprofit public charity (EIN 4
 
 ## Rules for changes
 
-1. **Keep the player list in two places in sync**: the visible `<ul class="players">` and the `performer` array in the JSON-LD `<script type="application/ld+json">` block in `index.html`.
+1. **Keep the player list in two places in sync**: the visible `<ul class="players">` in the `#players` section and the `performer` array in the JSON-LD `<script type="application/ld+json">` block in `index.html`.
 2. Any event fact change (date, time, venue, sponsors) must be updated in the visible copy, the meta description / OG / Twitter tags, AND the JSON-LD `Event` block.
 3. Validate the JSON-LD parses as JSON after editing.
 4. When content changes, update `<lastmod>` in `sitemap.xml`.
@@ -59,7 +59,9 @@ Donations were removed until the donation page exists (Zeffy is the recommended 
 - In the hero, Donate goes back to `btn-red` and "Become a Sponsor" goes back to `btn-outline`.
 - If the platform offers an embeddable goal thermometer, add it to the `#give` section.
 
-### 2. Player list
+### 2. Player list and headshots
+Headshots live in `assets/players/` as 400×400 WebP squares, named `first-last.webp`; CSS crops them to circles. Players without a photo show an initials circle (`<span class="avatar avatar-placeholder">`). To add a photo: crop square with the face centered and the hat fully in frame, save as WebP, then swap the `<span>` for `<img class="avatar" src="assets/players/first-last.webp" width="400" height="400" loading="lazy" alt="First Last">`. Use only photos the athlete or the photographer has OK'd; do not pull PRCA/WPRA photos without permission.
+
 Each player must OK being listed publicly. Remove anyone who hasn't, in both places (see rule 1). Add new players as they confirm.
 
 ### 3. Confirm 501(c)(3)
