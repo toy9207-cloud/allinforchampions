@@ -12,7 +12,7 @@ One-page website for **All In For Champions**, a nonprofit public charity (EIN 4
 - 10 NFR contestants + 5 VIP players; sponsors cover every buy-in
 - Emcee: Lefty Holman. The Cowboy Channel films the event. Fans welcome to watch.
 - 2025 raised $27,500; 2026 goal is to double it ($55,000)
-- Players (as of Oct. 28, 2026): Cody Snow, Jordi Mitchell, Lane Mitchell, Rylee George, Haven Meged, Shelby Meged, Derrick Begay, Colter Todd, Cooper James, Lefty Holman. Spellings are confirmed by the owner. Do not "correct" them. Lefty Holman is also listed as emcee.
+- Players (as of Oct. 28, 2026): Cody Snow, Jordi Mitchell, Lane Mitchell, Rylee George, Haven Meged, Shelby Meged, Derrick Begay, Colter Todd, Cooper James. Spellings are confirmed by the owner. Do not "correct" them. Lefty Holman is the emcee, not a player; he has his own spot below the player grid and is `contributor` (not `performer`) in the JSON-LD.
 - Presenting sponsors: Virgin Hotels Las Vegas (Curio Collection by Hilton), Seven X Custom Jewelry
 
 ## Stack and hosting
