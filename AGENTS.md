@@ -55,7 +55,7 @@ One-page website for **All In For Champions**, a nonprofit public charity (EIN 4
 - Tickets sell on GalaBid: https://galabid.com/all-in-for-champions. $100 a ticket, 250 total, limit 15 per person, sales close Dec. 4 (confirm the close date against GalaBid).
 - Prize: custom NFR Celebrity Blackjack safe by The Safe Gal (woman-owned, made in the USA). 1/4-inch steel, 24 inches deep x 36 wide x 60 tall, 810 pounds. 100% of proceeds go to All In For Champions for Golden Circle of Champions.
 - The raffle appears in four places: the red bar at the top of `index.html`, the hero "Buy Raffle Tickets" button, the `#raffle` section on the homepage, and the standalone page `raffle/index.html`. The homepage section and `raffle/index.html` share the same markup; edit both.
-- `raffle/index.html` exists so Facebook shows the raffle share image (`assets/raffle/og-raffle-v2.jpg`, 1200x630). Share `https://allinforchampions.org/raffle/`, not the homepage. After changing the share image, re-scrape at developers.facebook.com/tools/debug.
+- `raffle/index.html` exists so Facebook shows the raffle share image (`assets/raffle/og-raffle-v3.jpg`, 1200x630). Share `https://allinforchampions.org/raffle/`, not the homepage. After changing the share image, re-scrape at developers.facebook.com/tools/debug.
 - The sponsor is **Seven X** Custom Jewelry. The GalaBid listing says "Silver X"; do not copy that.
 - After Dec. 4: remove the top bar and the hero button, and change the raffle section to announce the winner or take it down.
 
